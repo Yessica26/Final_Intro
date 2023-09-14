@@ -1,0 +1,62 @@
+.navbar,
+.carousel,
+.pie {
+    background-image: url(/imagenes/Colorful\ Watercolor\ Painting\ Phone\ Wallpaper.png);
+    border-radius: 10%;
+    padding-right: 5%;
+}
+
+.card {
+    background-image: url(/imagenes/FONDO2.2.png);
+}
+
+@font-face {
+    font-family: IndieFlower-Regular;
+    src: url(/IndieFlower-Regular.ttf);
+    font-size: 190%;
+}
+
+.logo img {
+    width: 130px;
+}
+
+body {
+    font-family: IndieFlower-Regular;
+}
+
+.alto-img-carrusel {
+    height: 700px;
+    border-radius: 10%;
+
+}
+
+.section-1 {
+    background-image: url(/imagenes/Diseño\ sin\ título\ \(2\).png);
+    border-radius: 10%;
+    padding-right: 5%;
+}
+
+.seccion2 {
+    background-image: url(/imagenes/flores.gif);
+}
+
+.card img {
+    height: 500px;
+}
+
+.pie img {
+    width: 90px;
+}
+
+
+
+@media (max-width:560px) {
+    body {
+        gap: 5px;
+    }
+
+    img {
+        width: 100%;
+        height: 380px;
+    }
+}
